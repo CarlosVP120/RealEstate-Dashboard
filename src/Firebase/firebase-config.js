@@ -1,15 +1,15 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAuth, GoogleAuthProvider } from 'firebase/auth';
-import { getFirestore } from 'firebase/firestore';
+import { getAuth, GoogleAuthProvider } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-     apiKey: "AIzaSyBIJVcCg30FToaK2qkoamqRg7GMrsJ6baU",
-     authDomain: "yt-firebase-setup.firebaseapp.com",
-     projectId: "yt-firebase-setup",
-     storageBucket: "yt-firebase-setup.appspot.com",
-     messagingSenderId: "283257567212",
-     appId: "1:283257567212:web:772f30edbb6218bb47f2c9"
+  apiKey: "AIzaSyCBYNvgxRIMl-w4wJ65ARn3Kk5Gfao7Xsc",
+  authDomain: "real-estate-dashboard-test.firebaseapp.com",
+  projectId: "real-estate-dashboard-test",
+  storageBucket: "real-estate-dashboard-test.appspot.com",
+  messagingSenderId: "411616676396",
+  appId: "1:411616676396:web:649700e280c09953431f89",
 };
 
 // Initialize Firebase
