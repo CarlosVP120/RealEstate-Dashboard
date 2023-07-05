@@ -67,7 +67,6 @@ const PropertyCard = ({ property }) => {
               colorScheme="blue"
               onClick={() => {
                 setAccess("editar");
-                onOpen();
               }}
             >
               Editar
@@ -78,7 +77,6 @@ const PropertyCard = ({ property }) => {
               colorScheme="blue"
               onClick={() => {
                 setAccess("ver");
-                onOpen();
               }}
             >
               Ver
